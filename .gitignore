@@ -1,0 +1,37 @@
+## Visial studio 2026
+Background/
+[Db]in/
+[Oo]bj/
+[Log]s/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## USUARIO
+*.userprefs
+*.pidb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+##NUGET PACKAGES
+*.nuget.props
+*.nuget.targets
+packages/
+
+## BD LOCAL PARA NO SOMRESCRIBIR
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+##sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

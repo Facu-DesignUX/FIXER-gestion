@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FIXER.Domain\FIXER.Domain.csproj" />
+    <ProjectReference Include="..\FIXER.Application\FIXER.Application.csproj" />
+    <ProjectReference Include="..\FIXER.Infrastructure\FIXER.Infrastructure.csproj" />
+    <ProjectReference Include="..\FIXER.InterfaceAdapter\FIXER.InterfaceAdapter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>

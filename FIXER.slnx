@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="FIXER.Application/FIXER.Application.csproj" />
+  <Project Path="FIXER.Desktop/FIXER.Desktop.csproj" />
+  <Project Path="FIXER.Domain/FIXER.Domain.csproj" />
+  <Project Path="FIXER.Infrastructure/FIXER.Infrastructure.csproj" />
+  <Project Path="FIXER.InterfaceAdapter/FIXER.InterfaceAdapter.csproj" />
+</Solution>
